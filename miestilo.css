@@ -1,0 +1,58 @@
+
+p:nth-child(odd){
+    background-color: aqua;
+}
+
+p:nth-child(even){
+    background-color: aquamarine;
+}
+
+
+body{
+
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+/*Pseudo clase de negacion*/
+:not(p){
+    color:purple;
+}
+
+/*¿que hace la pseudoclase :not?*/
+
+/*Referenciado por cualquier atributo*/
+
+/*
+estructura general
+p[name]{}
+*/
+p[name="mitexto"]{
+    color: blue;
+}
+
+p[name^="la"]{
+    color: red;
+}
+
+/*prueba ahora con esto*/
+p[name$="tro"]{
+    color: orange;
+}
+
+p[name*="pru"]{
+    color: green;
+}
+
+
+/*Selector universal*/
+
+
+estructura
+*{
+
+margin: 60px;
+}
+
+
+
